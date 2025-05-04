@@ -1,0 +1,7 @@
+myjob:
+ stage: build
+  tags:
+   -myname
+   script:
+    -echo "date"
+    -hostname
